@@ -3,8 +3,37 @@
     padding: 0;
     height: 100vh;
     display: flex;
+    font-family: sans-serif;
 }
 
 .container1{
-    border: 2px solid;
+    background-color: #1f2937;
+    width: 100%;
+    color: white;
+}
+.header ul{
+    display: flex;
+    /* border: 2px solid; */
+    list-style: none;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+#header-logo{
+    margin-right: auto;
+    margin-left: 150px;
+}
+#youtube{
+    margin-right: 150px;
+}
+.hero{
+    display:flex;
+    flex: auto;
+}
+.hero > *{
+    height: auto;
+    width:200px;
 }
