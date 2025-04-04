@@ -9,8 +9,10 @@
 
 .container1{
     background-color: #1f2937;
-    width: 100%;
+    /* width: 100%; */
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 .header ul{
     display: flex;
@@ -25,17 +27,45 @@ a{
 }
 #header-logo{
     margin-right: auto;
-    margin-left: 150px;
+    margin-left: 75px;
 }
 #youtube{
-    margin-right: 150px;
+    margin-right: 75px;
 }
 .hero{
     display:flex;
     justify-content: center;
     margin-top: 20px;
+    border: 2px solid red;
+    flex:1;
 }
-.hero > *{
-    height: auto;
-    width:200px;
+/* .hero > *{
+    border: 2px solid red;
+    margin-bottom: 20px;
+} */
+.hero-text{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    
+}
+.hero-image{
+    max-width: 350px;
+    display: flex;
+    
+}
+#main-text{
+    font-size: 48px;
+    flex-shrink: 0;
+}
+#second-text{
+    font-size: 18px;
+}
+#button {
+    background-color: #3882f6; 
+    border-radius: 5px; 
+    color: white; 
+    padding: 4px 10px;
+    width: 100px;
 }
