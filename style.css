@@ -3,6 +3,7 @@
     padding: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     font-family: sans-serif;
 }
 
@@ -31,7 +32,8 @@ a{
 }
 .hero{
     display:flex;
-    flex: auto;
+    justify-content: center;
+    margin-top: 20px;
 }
 .hero > *{
     height: auto;
