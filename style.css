@@ -88,20 +88,57 @@ a{
     margin-top: 100px;
 }
 .pair{
-    width: 150px;
+    width: 250px;
     
 }
 .pair img{
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 .container3{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: #e5e7eb;
     padding:100px;
     margin-top: 20px;
 }
 .quote{
     font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+#end-quote{
+    margin-left: auto;
+    margin-top: 20px;
+    padding-right: 100px;
+    font-weight: 800;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+   
+}
+.content4{
+    display: flex;
+    padding: 50px;
+    background-color: #3882f6;
+    margin: 100px;
+    color: white;
+    border-radius: 10px;
+}
+.text4{
+    margin-right:10px;
+}
+.content4 button{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.content4 button:hover{
+    cursor:grab;
+    background-color: white;
+    color: black;
 }
