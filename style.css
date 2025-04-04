@@ -36,7 +36,7 @@ a{
     display:flex;
     justify-content: center;
     margin-top: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex:1;
 }
 /* .hero > *{
@@ -44,7 +44,7 @@ a{
     margin-bottom: 20px;
 } */
 .hero-text{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -68,4 +68,40 @@ a{
     color: white; 
     padding: 4px 10px;
     width: 100px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header2{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.content2{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap:20px;
+    align-items: baseline;
+    margin-top: 100px;
+}
+.pair{
+    width: 150px;
+    
+}
+.pair img{
+    width: 150px;
+    height: auto;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding:100px;
+    margin-top: 20px;
+}
+.quote{
+    font-size: 36px;
 }
