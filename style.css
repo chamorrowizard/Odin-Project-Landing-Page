@@ -13,13 +13,20 @@
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.header{
+    
+    /* border: 2px solid green; */
+    width: 100%;
 }
 .header ul{
-    display: flex;
     /* border: 2px solid; */
     list-style: none;
-    justify-content:center;
+    display: flex;
 }
+
+
 a{
     text-decoration: none;
     margin: 15px;
@@ -35,10 +42,12 @@ a{
 .hero{
     display:flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
     /* border: 2px solid red; */
-    flex:1;
+    max-width: 600px;
     margin-bottom: 25px;
+    
 }
 /* .hero > *{
     border: 2px solid red;
@@ -46,15 +55,13 @@ a{
 } */
 .hero-text{
     /* border: 2px solid green; */
-    display: flex;
-    flex-direction: column;
-    width: 350px;
+    flex: 1;
     
 }
 .hero-image{
-    max-width: 350px;
-    display: flex;
-    
+    max-width: 50%;
+    flex: 1;
+    /* border: 2px solid green; */
 }
 #main-text{
     font-size: 48px;
